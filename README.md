@@ -9,8 +9,10 @@ Entertainment piece, amateur Android development, Java 7 relics for the modern e
 |-|-|-|-|
 |原神|纳维莱特|转圈AOE|https://www.bilibili.com/video/BV1TD42157nn/ |
 |原神|散兵|染水17重击|https://www.bilibili.com/video/BV1qj41157dp/ |
+|原神||剧情连点||
 
 内置脚本：
+
 Built-in script:
 
 - calculating
