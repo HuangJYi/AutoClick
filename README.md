@@ -1,8 +1,10 @@
 # AutoClick
 安卓、中文编程、模拟点击拖拽、游戏辅助软件。
+
 A script-based programming, click-and-drag simulation, helper software for Android, designed for gaming assistance.
 
 娱乐作品，非专业安卓开发，新时代的java7古董代码，您可随意修改使用。
+
 Entertainment piece, amateur Android development, Java 7 relics for the modern era, feel free to modify and use.
 
 |游戏|角色|操作|视频地址|
@@ -86,7 +88,7 @@ edt.putString(CODE+3,
 - 请确保勾选了此脚本。这个按钮可能需要快速按多次，因为其他脚本的频繁操作，有可能打断你刚刚进行的按“停止”按钮的点击行为
 - STOP CURRENT RUNNING SCRIPT.
 - Please confirm that this script is checked before formally using scripts from the floating window.
-- You may need to click this script button multiple times, because other frequent operations might interrupt your recent click on the "stop" button.
+- You may need to click this script button multiple times, because other frequent operations from script might interrupt your recent click on the "stop" button.
 ```java
 edt.putString(CODE_TITLE+4, "婷芷！");
 edt.putString(CODE+4,
