@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/border_radius"
+
+        android:onClick="runCode"
+        android:tag="-1"
+        android:text="1"
+        android:textColor="#f00"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>

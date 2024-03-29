@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/main_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--授权-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="grantAccess"
+            android:text="授权无障碍" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="grantFloat"
+            android:text="授权悬浮窗" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="stopFloat"
+            android:visibility="gone"
+            android:text="结束悬浮窗后台" />
+    </LinearLayout>
+
+    <!--坐标-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showHidePosition"
+            android:text="显/隐坐标"/>
+        <EditText
+            android:id="@+id/sample_x"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="50" />
+        <EditText
+            android:id="@+id/sample_y"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="450" />
+    </LinearLayout>
+
+    <!--脚本-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnNewCode"
+            android:visibility="gone"
+            android:text="新建代码" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnChooseCode"
+            android:text="代码列表(点击列表项修改/保存/编译代码)" />
+    </LinearLayout>
+
+    <!--悬浮窗-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/show_hide_float"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showHideFloat"
+            android:text="显/隐悬浮窗" />
+        <EditText
+            android:id="@+id/float_x"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="900" />
+        <EditText
+            android:id="@+id/float_y"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="0" />
+    </LinearLayout>
+
+    <!--代码编辑区-->
+    <LinearLayout
+        android:id="@+id/code_edit_area"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/code_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="code title" />
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="1\n2\n3"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="saveCode"
+                android:text="保存代码" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="compileCode"
+                android:text="编译代码" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="testCode"
+                android:tag="1"
+                android:text="试运行(输出结果)" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="testCode"
+                android:tag="2"
+                android:text="试运行(模拟点击)" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showUnprocessedError"
+                android:text="查看未知错误" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clearUnprocessedError"
+                android:text="清除错误记录" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="输\n出\n框" />
+
+    </LinearLayout>
+
+    <!--代码列表区-->
+    <LinearLayout
+        android:id="@+id/code_list_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- android:backgroud="@drawable/border_radius" -->
+    <!-- 这里是设置背景色-->
+    <solid android:color="#0000" />
+    <!-- 这里是设置为四周 也可以单独设置某个位置为圆角-->
+    <corners android:topLeftRadius="500dp"
+        android:topRightRadius="500dp"
+        android:bottomRightRadius="500dp"
+        android:bottomLeftRadius="500dp"/>
+    <!-- 这里设置边框 -->
+    <stroke android:width="3dp" android:color="#8f00" />
+</shape>

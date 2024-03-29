@@ -1,0 +1,9 @@
+<resources>
+    <!--app名称-->
+    <string name="app_name">A娱乐向无障碍掌上中文编程</string>
+    <!--注册acc服务名称-->
+    <string name="accessibility_service_label">A娱乐向无障碍掌上中文编程</string>
+    <string name="accessibility_service_description">A娱乐向无障碍掌上中文编程</string>
+    <!--float service-->
+    <string name="float_service_label">A娱乐向无障碍掌上中文编程</string>
+</resources>
