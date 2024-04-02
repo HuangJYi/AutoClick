@@ -1,7 +1,7 @@
 # AutoClick
-安卓、中文编程、无障碍、模拟点击拖拽、游戏辅助软件。
+安卓、低代码中文编程、无障碍模拟点击拖拽、游戏辅助软件。
 
-A script-based programming, accessible click-and-drag simulation, helper software for Android, designed for gaming assistance.
+A script-based low-code programming, accessible click-and-drag simulation, helper software for Android, designed for gaming assistance.
 
 娱乐作品，非专业安卓开发，java7古董代码，您可随意修改使用在其他app。
 
