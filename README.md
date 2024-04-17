@@ -3,9 +3,9 @@
 
 A script-based low-code programming, accessible click-and-drag simulation, helper software for Android, designed for gaming assistance.
 
-娱乐作品，非专业安卓开发，java7古董代码，您可随意修改使用在其他app。
+娱乐作品，您可随意修改使用在其他app。
 
-Entertainment piece, amateur Android development, Java 7 relics, feel free to modify and use in other game and application.
+Entertainment software, feel free to modify and use in other game and application.
 
 |游戏|角色|操作|视频地址|
 |-|-|-|-|
