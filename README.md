@@ -1,12 +1,13 @@
 # AutoClick
-安卓、低代码中文编程、无障碍模拟点击拖拽、游戏辅助软件。
+可编程安卓连点器。
 
-A script-based low-code programming, accessible click-and-drag simulation, helper software for Android, designed for gaming assistance.
+A script-based, click-and-drag simulation, game helper software for Android.
 
-娱乐作品，您可随意修改使用在其他app。
+娱乐作品，您可随意修改使用。
 
-Entertainment software, feel free to modify and use in other game and application.
+Entertainment software, feel free to modify and use.
 
+Video for example:
 |游戏|角色|操作|视频地址|
 |-|-|-|-|
 |原神|纳维莱特|转圈AOE|https://www.bilibili.com/video/BV1TD42157nn/ |
