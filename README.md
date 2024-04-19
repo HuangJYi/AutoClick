@@ -13,9 +13,9 @@ Entertainment software, feel free to modify and use in other game and applicatio
 |原神|散兵|染水17重击|https://www.bilibili.com/video/BV1qj41157dp/ |
 |原神||剧情连点||
 
-内置脚本：
+内置脚本（运行APP仅显示字符串部分）：
 
-Built-in script:
+Built-in script(only show strings when APP running):
 
 - calculating
 ```java
